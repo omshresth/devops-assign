@@ -100,6 +100,7 @@ resource "aws_s3_bucket_versioning" "versioning"{
 }
 
 resource "aws_s3_bucket_lifecycle_configuration" "lifecycle" {
+  count = var.enable_lifecycle ? 1 : 0
   bucket = aws_s3_bucket.logs.id
 
   rule {

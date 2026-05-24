@@ -13,3 +13,8 @@ variable "environment"{
 variable "project" {
     default="NimbusKart"
 }
+
+variable "enable_lifecycle" {
+  type    = bool
+  default = true
+}
