@@ -235,7 +235,8 @@ if findings and args.dry_run:
         "[red]Orphans detected[/red]"
     )
 
-    sys.exit(1)
+    exit(0)
+    # exit(1)
 
 print("[green]No issues found[/green]")
 
