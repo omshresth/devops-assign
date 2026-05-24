@@ -15,8 +15,6 @@ Deliverables checklist
 ---
 Walkthrough video
 
-Link (Loom / YouTube unlisted / Google Drive):  
-ADD_VIDEO_LINK_HERE
 
 Length: max 5 minutes
 
